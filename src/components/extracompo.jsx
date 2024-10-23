@@ -635,7 +635,7 @@ export const Team = () => {
 
 export const Discount = () => {
   return (
-    <div className="mt-[-15px] h-[600px] py-20 px-[40px] bg-[#fdf5f3] w-[100%] flex flex-col md:flex-row lg:flex-row xl:flex-row  ">
+    <div className="mt-[-15px] h-auto py-20 px-[40px] bg-[#fdf5f3] w-[100%] flex flex-col md:flex-row lg:flex-row xl:flex-row  ">
       <div className="w-[100%] md:w-[50%] lg:w-[50%] xl:w-[50%] flex flex-col gap-y-3 ">
         <div className="h-[40px] w-[90%] flex justify-between items-center px-[20px] bg-green-900 text-white rounded-l-[40px] rounded-r-[40px]">
           Can i get special discount? <FiArrowUp />
@@ -694,7 +694,7 @@ export const Contact = () => {
           dolore repellendus, cupiditate, unde earum laborum tenetur. Commodi,
           cumque mollitia?
         </p>
-        <div className="flex justify-between gap-x-5">
+        <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row justify-between gap-y-6 gap-x-5">
           <div className="flex flex-col gap-y-4">
             <p className="text-green-800 text-[25px] cormorant">Texas</p>
             <p className="text-green-800 flex gap-x-3 ">
@@ -729,7 +729,7 @@ export const Contact = () => {
         </div>
       </div>
 
-      <div className="w-[100%] md:w-[50%] lg:w-[50%] xl:w-[50%] h-[300px] px-[10px] text-center justify-center  rounded-tl-[50px] rounded-br-[50px] pt-5 bg-green-900">
+      <div className="w-[100%] md:w-[50%] lg:w-[50%] xl:w-[50%] h-auto py-6 my-8 px-[10px] text-center justify-center  rounded-tl-[50px] rounded-br-[50px] pt-5 bg-green-900">
         <input
           className="pl-5 bg-inherit text-inherit my-1 rounded-l-[25px] rounded-r-[25px] outline-none py-2 border-white border-solid border-[2px] mr-4"
           type="text"
