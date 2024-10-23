@@ -685,7 +685,7 @@ export const Discount = () => {
 
 export const Contact = () => {
   return (
-    <div className="w-[100%] flex  py-20 px-[30px] bg-[#fdf5f3]">
+    <div className="w-[100%] flex flex-col py-20 px-[30px] bg-[#fdf5f3] md:flex-row lg:flex-row xl:flex-row">
       <div className="w-[100%] md:w-[50%] lg:w-[50%] xl:w-[50%] flex flex-col px-[20px] justify-center">
         <p className="text-green-800 text-[40px] cormorant">Get in Touch</p>
         <p className="text-green-800">
