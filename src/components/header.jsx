@@ -20,20 +20,20 @@ const Header = () => {
         <div className="w-[20%] hidden md:flex lg:flex xl:flex justify-start items-center">
           <img className="h-[30px] w-[150px]" src="/logo.png" alt="logo" />
         </div>
-        <div className="w-[100%] md:w-[80%] lg:w-[60%] xl:w-[60%] flex justify-between items-center ">
-          <Link href="/" className="hover:font-bold">
+        <div className="w-[100%] pl-8 md:w-[80%] lg:w-[60%] xl:w-[60%] flex justify-between items-center ">
+          <Link href="/" className="hover:font-bold focus:font-bold">
             Home
           </Link>
-          <Link href="about" className="hover:font-bold">
+          <Link href="about" className="hover:font-bold focus:font-bold">
             About
           </Link>
-          <Link href="servicess" className="hover:font-bold">
+          <Link href="servicess" className="hover:font-bold focus:font-bold">
             Services
           </Link>
-          <Link href="team" className="hover:font-bold">
+          <Link href="team" className="hover:font-bold focus:font-bold">
             Our Team
           </Link>
-          <Link href="Contact" className="hover:font-bold">
+          <Link href="Contact" className="hover:font-bold focus:font-bold">
             Contact
           </Link>
         </div>
