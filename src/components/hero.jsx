@@ -48,34 +48,34 @@ export const Hero = () => {
         </button>
       </div>
 
-      <div className="w-[100%] md:w-[500px] md:flex md:justify-between md:flex-row md:gap-2 lg:w-[550px] lg:justify-between lg:flex-row lg:gap-2 xl:w-[600px] hidden xl:flex lg:flex xl:flex-row  xl:justify-between">
+      <div className="w-[100%] md:w-[55%] md:flex md:justify-around md:flex-row lg:w-[60%] lg:justify-between lg:flex-row xl:w-[60%] hidden xl:flex lg:flex xl:flex-row  xl:justify-between">
         <Swiper
-          spaceBetween={5}
-          slidesPerView={2.5}
+          spaceBetween={8}
+          slidesPerView={2}
           navigation={false}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          // className = 'w-[80%]'
+          className = 'w-[80%]'
           loop={true}
           modules={[Pagination, Navigation]}
         >
           <SwiperSlide>
             <img
-              className="h-[380px] w-[200px] rounded-t-[100px]"
+              className="h-[380px] w-[400px] rounded-t-[100px]"
               src="/hero1.jpeg"
               alt="logo"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="h-[380px] w-[200px] rounded-t-[100px]"
+              className="h-[380px] w-[400px] rounded-t-[100px]"
               src="/hero2.jpg"
               alt="logo"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              className="h-[380px] w-[200px] rounded-t-[100px]"
+              className="h-[380px] w-[400px] rounded-t-[100px]"
               src="/hero3.jpeg"
               alt="logo"
             />
@@ -213,14 +213,14 @@ export const Hero2 = () => {
         </Swiper>
       </div>
 
-      <div className="w-[100%] xl:w-[70%] mt-[40px]  lg:w-[70%]  xl:hidden lg:hidden">
+      <div className="w-[100%] md:w-[50%] xl:w-[50%] mt-[40px] lg:w-[50%]  xl:hidden lg:hidden">
         <Swiper
           spaceBetween={5}
           slidesPerView={1}
           navigation={false}
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          // className = 'w-[80%]'
+          className = 'w-[100%]'
           loop={true}
           modules={[Pagination, Navigation]}
         >
